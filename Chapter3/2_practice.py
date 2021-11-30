@@ -6,8 +6,9 @@ def setting():
     # M = random.randrange(1, 10001)
     # K = random.randrange(1, M+1)
 
-    N = 5
-    M = 8
+    # for testing
+    N = 10
+    M = 5
     K = 3
     print(f'{N}\t{M}\t{K}')
 
@@ -20,6 +21,7 @@ def setting():
         # num_list.append(random.randrange(1, 10001))
         num_list.append(random.randrange(1, 10))
 
+    print('num_list')
     print(num_list)
 
     return N, M, K, num_list
@@ -54,7 +56,7 @@ if __name__ == "__main__":
                     result_list.append((biggest_index, biggest_num))
             prev_b_idx = biggest_index
             is_biggest = False
-            print(result_list)
+            # print(result_list)
 
         else:
             for n_idx, a_num in enumerate(num_list):
@@ -68,7 +70,7 @@ if __name__ == "__main__":
             result_list.append((biggest_index, biggest_num))
             prev_b_idx = biggest_index
             is_biggest = True
-            print(result_list)
+            # print(result_list)
 
     print(result_list)
 
@@ -79,4 +81,4 @@ if __name__ == "__main__":
         index, num = a_result
         sum+=num
 
-    print(sum)
+    print(f'Result: {sum}')
