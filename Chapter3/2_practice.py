@@ -56,7 +56,7 @@ if __name__ == "__main__":
                     result_list.append((biggest_index, biggest_num))
             prev_b_idx = biggest_index
             is_biggest = False
-            # print(result_list)
+            # Implement(result_list)
 
         else:
             for n_idx, a_num in enumerate(num_list):
@@ -70,7 +70,7 @@ if __name__ == "__main__":
             result_list.append((biggest_index, biggest_num))
             prev_b_idx = biggest_index
             is_biggest = True
-            # print(result_list)
+            # Implement(result_list)
 
     print(result_list)
 
