@@ -1,0 +1,5 @@
+user_input = input()
+user_input = user_input.rstrip()
+user_input = user_input.lstrip()
+user_input = user_input.split()
+print(len(user_input))
