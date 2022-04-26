@@ -37,7 +37,7 @@ def get_score():
     
     return score 
 
-# 깊이 우선 탐색(DFS)를 이용해 울타리를 설치하면서, 매번 안전 영역의 크기를 계산함 
+# 깊이 우선 탐색(DFS_BFS)를 이용해 울타리를 설치하면서, 매번 안전 영역의 크기를 계산함
 def dfs(count):
     global result 
     
